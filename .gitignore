@@ -1,0 +1,16 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.gitignore.swp
+.idea/
+app/src/test/
+app/src/androidTest/
+app/src/test/
+app/src/main/java/com/a763486563qq/myapplication/MainActivity.java
+
