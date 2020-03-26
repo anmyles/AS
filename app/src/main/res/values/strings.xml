@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="reminder">Reminder name</string>
+    <string name="open">OPEN...</string>
+    <string name="open_shortcut">Ctrl-O</string>
+    <string name="save">SAVA</string>
+    <string name="save_shortcut">Ctrl-S</string>
+    <string name="saveas">SAVE AS ...</string>
+    <string name="saveas_shortcut">Ctrl-Shift-S</string>
+    <string name="import_1">✗ IMPORT...</string>
+    <string name="export_1">✗ EXPORT...</string>
+    <string name="ex_shortcut">Ctrl-E</string>\
+    <string name="Quit">QUIT</string>
 </resources>
