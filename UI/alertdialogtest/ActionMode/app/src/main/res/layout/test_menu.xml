@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="File">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item android:id="@+id/file_new"
+                    android:title="New"
+                    android:icon="@android:drawable/ic_input_add"
+                    android:alphabeticShortcut="n" />
+                <item android:id="@+id/file_save"
+                    android:title="Save"
+                    android:icon="@android:drawable/ic_menu_save"
+                    android:alphabeticShortcut="s" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Edit">
+        <menu>
+            <!-- 单选按钮组 -->
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/cut"
+                    android:title="Cut"
+                    android:alphabeticShortcut="Ctrl + x" />
+                <item android:id="@+id/copy"
+                    android:title="Copy"
+                    android:alphabeticShortcut="Ctrl + c" />
+                <item android:id="@+id/paste"
+                    android:title="Paste"
+                    android:alphabeticShortcut="Ctrl + v" />
+            </group>
+        </menu>
+    </item>
+</menu>

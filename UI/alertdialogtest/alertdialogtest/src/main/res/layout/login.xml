@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/loginForm"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#ffffff"
+	>
+    <TextView
+		android:text="@string/ANDROID_APP"
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:textSize="30dp"
+		android:gravity="center"
+		android:typeface="serif"
+		android:background="@color/pink"
+		/>
+	<TableRow android:paddingStart="12dp">
+
+		<!-- 输入用户名的文本框 -->
+		<EditText
+			android:layout_width="380dp"
+			android:layout_height="60dp"
+			android:background="#ffffff"
+			android:hint="Username"
+			android:selectAllOnFocus="true" />
+	</TableRow>
+
+	<TableRow
+		android:layout_height="55dp"
+		android:paddingStart="12dp">
+
+		<!-- 输入密码的文本框 -->
+		<EditText
+			android:layout_width="380dp"
+			android:layout_height="50dp"
+			android:background="#ffffff"
+			android:hint="Password"
+			android:inputType="textPassword" />
+	</TableRow>
+
+
+</TableLayout>
+
