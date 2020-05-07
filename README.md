@@ -1,4 +1,4 @@
-实验三
+## 实验三
 
 3.1利用SimpleAdapter实现如下界面效果
 
@@ -113,3 +113,48 @@
 长按后
 
 ![img](file:///C:/Users/anmyles/AppData/Local/Temp/msohtmlclip1/01/clip_image052.jpg)
+
+## 实验四
+
+1.获取URL地址并启动隐式Intent的调用。
+ 1.1添加一个edittext框用来填写网址，并提示用户输入的格式为http://...
+
+![img](https://github.com/anmyles/AS/blob/master/images/4.1.png)
+
+1.2 用inputText来存放从edittext获取到的网址，并用intent打开
+
+![img](https://github.com/anmyles/AS/blob/master/images/4.2.png)
+
+1.3 运行
+
+![img](https://github.com/anmyles/AS/blob/master/images/4.3.png)
+
+1.4输入http://www.baidu.com,并点击游览该网页按钮，跳转到百度页面
+
+![img](https://github.com/anmyles/AS/blob/master/images/4.4.png)
+
+2.自定义WebView来加载URL
+
+2.1创建web的工程来自定义游览器，游览器的界面如下
+
+![img](https://github.com/anmyles/AS/blob/master/images/4.5.png)
+
+2.2AndroidManifest.xml配置文件
+
+![img](https://github.com/anmyles/AS/blob/master/images/4.6.png)
+
+2.3编辑intent工程
+
+![img](https://github.com/anmyles/AS/blob/master/images/4.7.png)
+
+2.4 先运行web工程，再运行intent
+
+![img](https://github.com/anmyles/AS/blob/master/images/4.8.png)
+
+点击游览该网页后，选择web游览器
+
+![img](https://github.com/anmyles/AS/blob/master/images/4.9.png)
+
+可以用web查看网页了
+
+![img](https://github.com/anmyles/AS/blob/master/images/4.10.png)
